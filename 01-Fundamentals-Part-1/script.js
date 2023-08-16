@@ -1,3 +1,5 @@
+////////////////////////////////////////////////
+// Variable name conventions
 /*
 let js = "amazing";
 // if (js === "amazing") alert("Javascript is FUN!");
@@ -24,6 +26,9 @@ let job2 = "teacher";
 
 console.log(myFirstJob);
 */
+
+////////////////////////////////////////////////
+// Data Types
 /*
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -45,6 +50,9 @@ year = 1991;
 console.log(typeof year);
 console.log(typeof null);
 */
+
+////////////////////////////////////////////////
+// let, const and var
 /*
 let age = 30;
 age = 31;
@@ -59,6 +67,10 @@ job = "teacher";
 lastName = "Schmedtmann";
 console.log(lastName);
 */
+
+////////////////////////////////////////////////
+// Basic Operators
+// Math operators
 /*
 const now = 2037;
 const ageJonas = now - 1991;
@@ -89,6 +101,9 @@ const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
 */
+
+////////////////////////////////////
+// Operator Precedence
 /*
 const now = 2037;
 const ageJonas = now - 1991;
@@ -104,7 +119,7 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
 
-////////////////////////////////////
+////////////////////////////////////////////////
 // Coding Challenge #1
 
 /*
@@ -137,6 +152,10 @@ const markHigherBMI = bmiMark > bmiJohn;
 
 console.log(bmiMark, bmiJohn, markHigherBMI);
 */
+
+////////////////////////////////////////////////
+// Strings and Template Literals
+/*
 const firstName = "Jonas";
 const job = "teacher";
 const birthYear = 1991;
@@ -158,3 +177,25 @@ console.log(`Just a regular string...`);
 console.log(`String with
 multiple
 lines`);
+*/
+
+////////////////////////////////////////////////
+// Taking Decision: if else Statements
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license 🛵");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
