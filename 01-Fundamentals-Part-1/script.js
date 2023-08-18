@@ -220,7 +220,7 @@ GOOD LUCK 😀
 // const massJohn = 92;
 // const heightMark = 1.69;
 // const heightJohn = 1.95;
-
+/*
 const massMark = 95;
 const massJohn = 85;
 const heightMark = 1.88;
@@ -235,3 +235,30 @@ if (bmiMark > bmiJohn) {
 } else {
   console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})!`);
 }
+*/
+
+////////////////////////////////////
+// Type conversion and coercion
+
+// type conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear); // 1991 "1991"
+console.log(Number(inputYear) + 18); // 2009
+
+console.log(Number("Jonas")); // NaN
+console.log(typeof NaN); // number
+
+console.log(String(23), 23); // "23" 23
+
+// type coercion
+console.log("I am " + 23 + " years old"); // "I am 23 years old"
+console.log("23" - "10" - 3); // 10
+console.log("23" * "2"); // 46
+console.log("23" / "2"); // 11,5
+
+let n = "1" + 1; // "11"
+n = n - 1; // 10
+console.log(n); // 10
+console.log(2 + 3 + 4 + "5"); // "95"
+console.log("10" - "4" - "3" - 2 + "5"); // "15"
+console.log("10" - "4" - "3" - "1"); // 2
