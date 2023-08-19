@@ -241,6 +241,7 @@ if (bmiMark > bmiJohn) {
 // Type conversion and coercion
 
 // type conversion
+/*
 const inputYear = "1991";
 console.log(Number(inputYear), inputYear); // 1991 "1991"
 console.log(Number(inputYear) + 18); // 2009
@@ -262,3 +263,29 @@ console.log(n); // 10
 console.log(2 + 3 + 4 + "5"); // "95"
 console.log("10" - "4" - "3" - 2 + "5"); // "15"
 console.log("10" - "4" - "3" - "1"); // 2
+*/
+
+////////////////////////////////////
+// Truthy and Falsy values
+
+// 5 falsy values: 0, '', undefined, null NaN
+
+console.log(Boolean(0)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean("Jonas")); // true
+console.log(Boolean({})); // true
+console.log(Boolean("")); // false
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all ;)");
+} else {
+  console.log("You should get a job!");
+}
+
+let height;
+if (height) {
+  console.log("YAY! Height is defined");
+} else {
+  console.log("Height is UNDEFINED");
+}
