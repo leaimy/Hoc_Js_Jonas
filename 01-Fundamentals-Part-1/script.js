@@ -392,7 +392,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 
 ////////////////////////////////////
 // the switch statement
-
+/*
 const day = "sunday";
 
 switch (day) {
@@ -432,3 +432,18 @@ if (day === "monday") {
 } else {
   console.log("Not a valid day!");
 }
+  */
+
+////////////////////////////////////
+// statements and expressions (câu lệnh và biểu thức)
+
+3 + 4;
+1991;
+true && false && !false;
+
+if (23 > 10) {
+  const str = "23 is bigger";
+}
+
+const me = "Jonas";
+console.log(`I'm ${2037 - 1991} years old ${me}`);
