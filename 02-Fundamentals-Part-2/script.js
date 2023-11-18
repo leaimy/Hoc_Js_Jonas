@@ -138,7 +138,7 @@ HINT: To check if number A is at least double number B, check for A >= 2 * B. Ap
 
 GOOD LUCK 😀
 */
-
+/*
 const calcAverage = (point1, point2, point3) => (point1 + point2 + point3) / 3;
 
 // TEST DATA 1
@@ -162,3 +162,25 @@ function checkWinner(avgDolhins, avgKoalas) {
 
 // console.log(averageDolphins, averageKoalas);
 checkWinner(averageDolphins, averageKoalas);
+*/
+
+///////////////////////////////////////
+// Introduction to Arrays
+
+const friend1 = "Michael";
+const friend2 = "Steven";
+const friend3 = "Peter";
+
+const friends = ["Michael", "Steven", "Peter"];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2000, 1998);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Jay";
+console.log(friends);
